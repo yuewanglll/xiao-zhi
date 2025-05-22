@@ -14,7 +14,7 @@ public class AppointmentServiceImpl extends ServiceImpl<AppointmentMapper, Appoi
 
 
     /**
-     * 查询订单是否存在
+     * 查询预约是否存在
      * @param appointment
      * @return
      */

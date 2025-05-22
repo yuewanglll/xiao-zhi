@@ -131,7 +131,11 @@
         <dependency>
             <groupId>dev.langchain4j</groupId>
             <artifactId>langchain4j-easy-rag</artifactId>
-            <version>1.0.1-beta6</version>
+        </dependency>
+        <!--集成pinecone-->
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-pinecone</artifactId>
         </dependency>
     </dependencies>
     <build>

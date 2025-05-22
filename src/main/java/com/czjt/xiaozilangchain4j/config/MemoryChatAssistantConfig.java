@@ -14,7 +14,4 @@ public class MemoryChatAssistantConfig {
         //设置聊天记忆记录的message数量
         return MessageWindowChatMemory.withMaxMessages(10);
     }
-
-
-
 }
