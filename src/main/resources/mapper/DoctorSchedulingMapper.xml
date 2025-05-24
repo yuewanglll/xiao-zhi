@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.czjt.xiaozilangchain4j.mapper.DoctorSchedulingMapper">
+
+    <resultMap id="BaseResultMap" type="com.czjt.xiaozilangchain4j.pojo.DoctorScheduling">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="departmentName" column="department_name" jdbcType="VARCHAR"/>
+            <result property="dockerName" column="docker_name" jdbcType="VARCHAR"/>
+            <result property="data" column="data" jdbcType="DATE"/>
+            <result property="time" column="time" jdbcType="INTEGER"/>
+            <result property="availableSlots" column="available_slots" jdbcType="INTEGER"/>
+            <result property="maxSlots" column="max_slots" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,department_name,docker_name,
+        data,time,available_slots,
+        max_slots
+    </sql>
+</mapper>

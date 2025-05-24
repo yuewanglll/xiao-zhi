@@ -1,6 +1,5 @@
 package com.czjt.xiaozilangchain4j;
 
-import com.czjt.xiaozilangchain4j.strore.MongoChatMemoryStore;
 import dev.langchain4j.data.document.Document;
 import dev.langchain4j.data.document.loader.FileSystemDocumentLoader;
 
@@ -95,6 +94,7 @@ public class RAGTest {
                 .build()
                 .ingest(document);
     }
+
 
     /**
      * 计算token长度
